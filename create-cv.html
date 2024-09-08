@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create CV</title>
+    <link rel="stylesheet" href="css/create-cv.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Resume</h1>
+        <form id="resume-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </fieldset>
+            <fieldset id="education-section">
+                <legend>Education</legend>
+                <!-- Education fields will be added dynamically -->
+            </fieldset>
+            <button type="button" onclick="addEducation()">Add Education</button>
+            <fieldset id="experience-section">
+                <legend>Work Experience</legend>
+                <!-- Work Experience fields will be added dynamically -->
+            </fieldset>
+            <button type="button" onclick="addExperience()">Add Work Experience</button>
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skill-name">Skill:</label>
+                <input type="text" id="skill-name" name="skill-name" required>
+                <label for="proficiency">Proficiency Level:</label>
+                <input type="text" id="proficiency" name="proficiency" required>
+            </fieldset>
+            <button type="button" onclick="generateResume()">Generate Resume</button>
+        </form>
+        <div id="resume-preview">
+            <h1>Resume Preview</h1>
+            <!-- Resume content will be dynamically generated here -->
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
