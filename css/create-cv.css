@@ -98,29 +98,29 @@ button:hover {
     max-width: 1000px;
     margin: 30px auto;
     padding: 30px;
-    background-color: #007BFF; /* White background for clean, professional look */
-    color: #ffffff; /* Dark gray text for readability */
+    background-color: #007BFF; 
+    color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in;
-    text-align: left; /* Left alignment for standard resume format */
+    text-align: left; 
     position: relative;
-    border: 1px solid #007bff; /* Blue border to match the blue theme */
+    border: 1px solid #007bff; 
 }
 
 h2, h3, h4 {
-    color: #000000; /* Blue headings for a modern touch */
+    color: #000000; 
 }
 
 p {
     margin: 10px 0;
     font-size: 16px;
     line-height: 1.6;
-    color: #333; /* Keeping text readable with dark gray */
+    color: #333;
 }
 
 a {
-    color: #007bff; /* Links in blue to match the theme */
+    color: #007bff;
     text-decoration: none;
 }
 
